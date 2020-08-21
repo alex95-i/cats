@@ -4,13 +4,13 @@ $(document).ready(function(){
 	if ($("#one").prop("checked")){
 	$('#first_chosen').attr('id','first');
     $('#one').prop('checked', false);
-    $('#first').css('background-image', 'url("../img/cat.png")');
+    $('#first').css('background-image', 'url("./img/cat.png")');
     $('#circle_first').css({'background-color':'#1698d9'});
     $('#text_below1').html("Чего сидишь? Порадуй котэ,<button  id=\"link1\" class=\"link\" >купи</button><font color=\"#1698d9\">.</font>");}
 	else{
 	$('#first').attr('id','first_chosen');
     $('#one').prop('checked', true);
-    $('#first_chosen').css('background-image', 'url("../img/cat_selected.png")');
+    $('#first_chosen').css('background-image', 'url("./img/cat_selected.png")');
     $('#circle_first').css({'background-color':'#D91667'});
     $('#text_below1').html("<p>Печень утки разварная с артишоками</p>");
 }
