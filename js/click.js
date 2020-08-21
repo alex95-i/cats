@@ -50,6 +50,7 @@ $(document).ready(function(){
     $('#first').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link1").attr("disabled", true);
     $('#first').attr('id','non-click');
+    $('#circle_first').css({'background-color':'#B3B3B3'});
     $('#text_below1').html("<p class=\"golden\">Печалька, с фуа-гра закончился.</p>");
     }
 
@@ -57,6 +58,7 @@ $(document).ready(function(){
     $('#second').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link2").attr("disabled", true);
     $('#second').attr('id','non-click');
+    $('#circle_second').css({'background-color':'#B3B3B3'});
     $('#text_below2').html("<p class=\"golden\">Печалька, с рыбой закончился.</p>");
     }
 
@@ -64,6 +66,7 @@ $(document).ready(function(){
     $('#third').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link3").attr("disabled", true);
     $('#third').attr('id','non-click');
+    $('#circle_third').css({'background-color':'#B3B3B3'});
     $('#text_below3').html("<p class=\"golden\">Печалька, с курой закончился.</p>");
     }
     
