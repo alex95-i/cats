@@ -20,13 +20,13 @@ $(document).ready(function(){
 	if ($("#two").prop("checked")){
 	$('#second_chosen').attr('id','second');
     $('#two').prop('checked', false);
-    $('#second').css('background-image', 'url("../img/cat.png")');
+    $('#second').css('background-image', 'url("./img/cat.png")');
     $('#circle_second').css({'background-color':'#1698d9'});
     $('#text_below2').html("Чего сидишь? Порадуй котэ, <button class=\"link\"  id=\"link2\">купи</button><font color=\"#1698d9\">.</font>");}
 	else{
 	$('#second').attr('id','second_chosen');
     $('#two').prop('checked', true);
-    $('#second_chosen').css('background-image', 'url("../img/cat_selected.png")');
+    $('#second_chosen').css('background-image', 'url("./img/cat_selected.png")');
     $('#circle_second').css({'background-color':'#D91667'});
     $('#text_below2').html("<p>Головы щучьи с чесноком да свежайшая сёмгушка.</p>");}
 })
@@ -35,33 +35,33 @@ $(document).ready(function(){
 	if ($("#three").prop("checked")){
 	$('#third_chosen').attr('id','third');
     $('#three').prop('checked', false);
-    $('#third').css('background-image', 'url("../img/cat.png")');
+    $('#third').css('background-image', 'url("./img/cat.png")');
     $('#circle_third').css({'background-color':'#1698d9'});
     $('#text_below3').html("Чего сидишь? Порадуй котэ, <button class=\"link\"   id=\"link3\">купи</button><font color=\"#1698d9\">.</font>");}
 	else{
 	$('#third').attr('id','third_chosen');
     $('#three').prop('checked', true);
-    $('#third_chosen').css('background-image', 'url("../img/cat_selected.png")');
+    $('#third_chosen').css('background-image', 'url("./img/cat_selected.png")');
     $('#circle_third').css({'background-color':'#D91667'});
     $('#text_below3').html("<p>Филе из цыплят с трюфелями в бульоне.</p>");}
 })
 
     if ($("#one").prop("disabled")) {
-    $('#first').css('background-image', 'url("../img/cat_disabled.png")');
+    $('#first').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link1").attr("disabled", true);
     $('#first').attr('id','non-click');
     $('#text_below1').html("<p class=\"golden\">Печалька, с фуа-гра закончился.</p>");
     }
 
     if ($("#two").prop("disabled")) {
-    $('#second').css('background-image', 'url("../img/cat_disabled.png")');
+    $('#second').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link2").attr("disabled", true);
     $('#second').attr('id','non-click');
     $('#text_below2').html("<p class=\"golden\">Печалька, с рыбой закончился.</p>");
     }
 
     if ($("#three").prop("disabled")) {
-    $('#third').css('background-image', 'url("../img/cat_disabled.png")');
+    $('#third').css('background-image', 'url("./img/cat_disabled.png")');
     $("#link3").attr("disabled", true);
     $('#third').attr('id','non-click');
     $('#text_below3').html("<p class=\"golden\">Печалька, с курой закончился.</p>");
