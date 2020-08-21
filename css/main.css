@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Trebuchet";
-  src: url(../../fonts/Trebuchet.ttf) format("truetype");
+  src: url(../fonts/Trebuchet.ttf) format("truetype");
 }
 body {
   margin: 0 auto;
@@ -51,7 +51,7 @@ body {
   width: 320px;
   height: 480px;
   position: relative;
-  background: url(../../img/cat.png) center;
+  background: url(../img/cat.png) center;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
